@@ -6,7 +6,8 @@ public class Write {
 
 	public static void main(String[] args) {
 		try {
-		FileWriter FW=	new FileWriter("C:\\Users\\Abdulrahman\\Desktop\\test\\output.txt");
+		FileWriter FW=	new FileWriter("C:\\Users\\Abdulrahman"
+				+ "\\Desktop\\test\\output.txt");
 
 		FW.write("I ");
 		FW.write("Love ");
